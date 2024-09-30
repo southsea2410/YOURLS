@@ -9,6 +9,7 @@ services:
     environment:
       TZ: Asia/Ho_Chi_Minh
   php:
+    pull_policy: build
     container_name: php
     build:
       context: .
