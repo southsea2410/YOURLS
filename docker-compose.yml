@@ -22,7 +22,7 @@ services:
     image: mysql:latest
     ports:
       - 3306:3306
-    container_name: mysqldb
+    container_name: yourlsmysqldb
     volumes:
       - ./init.sql:/docker-entrypoint-initdb.d/init.sql
     environment:
